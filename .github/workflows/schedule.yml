@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Excavate
-      uses: KnotUntied/Scoop-GithubActions@stable
+      uses: Ash258/Scoop-GithubActions@stable
       env:
         GITH_EMAIL: 20182921+KnotUntied@users.noreply.github.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
