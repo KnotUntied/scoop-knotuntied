@@ -1,0 +1,5 @@
+{
+    "version": "1.0",
+    "url": "https://raw.githubusercontent.com/tabs-not-spaces/CodeDump/master/Import-VSCodeThemeToTerminal/Import-VSCodeThemeToTerminal.ps1",
+    "bin": "Import-VSCodeThemeToTerminal.ps1"
+}
