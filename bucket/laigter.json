@@ -5,6 +5,7 @@
     "version": "1.10.1",
     "url": "https://github.com/azagaya/laigter/releases/download/1.10.1/LaigterPortable-1.10.1.zip",
     "hash": "262672966a0271ef48d5f70aff340005070f1f06e877081c6d57ed55e4da7627",
+    "extract_dir": "LaigterPortable",
     "bin": "laigter.exe",
     "shortcuts": [
         [
