@@ -13,9 +13,7 @@
             "hash": "b8bd6f6bd9cf267072a5f49db70a1fc9838f47a5b704d34cfb05005964d3e7ea"
         }
     },
-    "checkver": {
-        "github": "https://github.com/aseprite/skia"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
