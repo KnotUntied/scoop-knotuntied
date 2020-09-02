@@ -6,7 +6,11 @@
     "url": "https://github.com/cheat/cheat/releases/download/4.0.4/cheat-windows-amd64.exe.zip",
     "hash": "de26652b2dce3f86c63f5da4ff04661d0bdb778f497f29fb82d674d96411d5d3",
     "extract_dir": "dist",
-    "bin": "cheat-windows-amd64.exe",
+    "bin": [ [ "cheat-windows-amd64.exe", "cheat" ] ],
+    "env_add_path": ".",
+    "env_set": {
+        "CHEAT_CONFIG_PATH": "$HOME/.config/cheat/conf.yml"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
