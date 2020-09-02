@@ -12,6 +12,7 @@
             "Bandcamp Downloader"
         ]
     ],
+    "persist": "BandcampDownloader.ini",
     "pre_install": "if(!(Test-Path \"$persist_dir\\BandcampDownloader.ini\")) { New-Item \"$dir\\BandcampDownloader.ini\" | Out-Null }",
     "checkver": "github",
     "autoupdate": {
