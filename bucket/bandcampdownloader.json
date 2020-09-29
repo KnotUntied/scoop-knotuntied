@@ -2,9 +2,9 @@
     "homepage": "https://github.com/Otiel/BandcampDownloader",
     "description": "A Windows app used to download albums from Bandcamp.",
     "license": "MIT",
-    "version": "1.3.2",
-    "url": "https://github.com/Otiel/BandcampDownloader/releases/download/v1.3.2/BandcampDownloader.zip",
-    "hash": "a1e451058413a54719686bfa0a6e8a22d832502aba577b62083f39ef96828499",
+    "version": "1.3.3",
+    "url": "https://github.com/Otiel/BandcampDownloader/releases/download/v1.3.3/BandcampDownloader.zip",
+    "hash": "83570cba0e6e65ab71be15b84e8e7b615d367b2c00c74255e97f096d3e7f0035",
     "bin": "BandcampDownloader.exe",
     "shortcuts": [
         [
