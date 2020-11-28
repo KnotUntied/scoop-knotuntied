@@ -2,9 +2,9 @@
     "homepage": "https://github.com/cheat/cheat",
     "description": "cheat allows you to create and view interactive cheatsheets on the command-line.",
     "license": "MIT",
-    "version": "4.1.1",
-    "url": "https://github.com/cheat/cheat/releases/download/4.1.1/cheat-windows-amd64.exe.zip",
-    "hash": "3b4ef8ad20e281ebe63e755b251b8096b45763c726b75456b951d9bd02120854",
+    "version": "4.2.0",
+    "url": "https://github.com/cheat/cheat/releases/download/4.2.0/cheat-windows-amd64.exe.zip",
+    "hash": "3803592421be3c8f93f62e9019aaeb72eece15fd3b210736aa55cc08ac4e586d",
     "extract_dir": "dist",
     "bin": [
         [
