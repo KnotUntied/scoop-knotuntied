@@ -16,6 +16,8 @@
             "youtube-dl-gui"
         ]
     ],
+    "persist": "settings.ini",
+    "pre_install": "if(!(Test-Path \"$persist_dir\\settings.ini\")) { New-Item \"$dir\\settings.ini\" | Out-Null }",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/murrty/youtube-dl-gui/releases/download/$version/youtube-dl-gui.zip"
