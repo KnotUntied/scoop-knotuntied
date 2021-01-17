@@ -14,7 +14,7 @@
     ],
     "env_add_path": ".",
     "env_set": {
-        "CHEAT_CONFIG_PATH": "$HOME/.config/cheat/conf.yml"
+        "CHEAT_CONFIG_PATH": "$HOME\\.config\\cheat\\conf.yml"
     },
     "checkver": "github",
     "autoupdate": {
