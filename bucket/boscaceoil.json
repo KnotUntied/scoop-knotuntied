@@ -5,7 +5,6 @@
     "version": "2.0",
     "url": "http://www.boscaceoil.net/downloads/boscaceoil_win_v2.zip",
     "hash": "8d49cab031461fe681f6aaa3a7415baac27ca53cc89d23c58572459583eef55d",
-    "bin": "BoscaCeoil.exe",
     "shortcuts": [
         [
             "BoscaCeoil.exe",
