@@ -3,8 +3,12 @@
     "description": "cheat allows you to create and view interactive cheatsheets on the command-line.",
     "license": "MIT",
     "version": "4.2.0",
-    "url": "https://github.com/cheat/cheat/releases/download/4.2.0/cheat-windows-amd64.exe.zip",
-    "hash": "3803592421be3c8f93f62e9019aaeb72eece15fd3b210736aa55cc08ac4e586d",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cheat/cheat/releases/download/4.2.0/cheat-windows-amd64.exe.zip",
+            "hash": "3803592421be3c8f93f62e9019aaeb72eece15fd3b210736aa55cc08ac4e586d"
+        }
+    },
     "extract_dir": "dist",
     "bin": [
         [
@@ -12,12 +16,25 @@
             "cheat"
         ]
     ],
-    "env_add_path": ".",
     "env_set": {
-        "CHEAT_CONFIG_PATH": "$HOME\\.config\\cheat\\conf.yml"
+        "CHEAT_CONFIG_PATH": "$persist_dir\\conf.yml"
     },
+    "post_install": [
+        "if(!(Test-Path \"$persist_dir\\conf.yml\")) {",
+        "    New-Item -ItemType \"directory\" -Path \"$persist_dir\" | Out-Null",
+        "    New-Item -ItemType \"directory\" -Path \"$persist_dir\" -Name \"cheatsheets\" | Out-Null",
+        "    New-Item -ItemType \"directory\" -Path \"$persist_dir\\cheatsheets\" -Name \"community\" | Out-Null",
+        "    New-Item -ItemType \"directory\" -Path \"$persist_dir\\cheatsheets\" -Name \"personal\" | Out-Null",
+        "    cheat --init > \"$persist_dir\\conf.yml\"",
+        "    Write-Host \"In $persist_dir\\conf.yml, each 'path' under 'cheatpaths' must be absolute.\" -Foreground Magenta",
+        "}"
+    ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
+            }
+        }
     }
 }
