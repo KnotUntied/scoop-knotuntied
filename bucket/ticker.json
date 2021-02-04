@@ -2,15 +2,15 @@
     "homepage": "https://github.com/achannarasappa/ticker",
     "description": "Terminal stock ticker with live updates and position tracking",
     "license": "GPL-3.0",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/achannarasappa/ticker/releases/download/v2.1.0/ticker-2.1.0-windows-amd64.tar.gz",
-            "hash": "811c7707510cf907b91cf1802b86186cee1eb2d41295f97cd71d646f3c76beed"
+            "url": "https://github.com/achannarasappa/ticker/releases/download/v2.2.0/ticker-2.2.0-windows-amd64.tar.gz",
+            "hash": "3d99ba5fa12e77d77d889323d1e5ec41d5fd8e9f4549c49cfbe6606ae9d15c27"
         },
         "32bit": {
-            "url": "https://github.com/achannarasappa/ticker/releases/download/v2.1.0/ticker-2.1.0-windows-386.tar.gz",
-            "hash": "c7140d4f78d4214019e836c6430c3c33b7abbdedae0aaa56398dc637bafcb097"
+            "url": "https://github.com/achannarasappa/ticker/releases/download/v2.2.0/ticker-2.2.0-windows-386.tar.gz",
+            "hash": "37acb99b97230db1ae3de75bc4f56f5204e2b88c25c1ea317c7b38f5c86403d9"
         }
     },
     "bin": "ticker.exe",
