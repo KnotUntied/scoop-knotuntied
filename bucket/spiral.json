@@ -1,0 +1,23 @@
+{
+    "homepage": "https://mitchellaugustin.com/spiral/",
+    "description": "Notebook application",
+    "license": "GPL-3.0-only",
+    "version": "1.2",
+    "url": "https://mitchellaugustin.com/spiral/versions/Spiral_Release_1.2_Windows.zip",
+    "hash": "a0618ece0b742040a6eb96c573aa0b4b9f7bfa99623eada9b5327364f44b067f",
+    "extract_dir": "Spiral Release 1.2 - Windows",
+    "shortcuts": [
+        [
+            "Spiral.exe",
+            "Spiral"
+        ]
+    ],
+    "checkver": {
+        "url": "https://mitchellaugustin.com/spiral/downloads.html",
+        "regex": "Spiral Release ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://mitchellaugustin.com/spiral/versions/Spiral_Release_$version_Windows.zip",
+        "extract_dir": "Spiral Release $version - Windows"
+    }
+}
