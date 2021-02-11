@@ -1,0 +1,36 @@
+{
+    "homepage": "https://helio.fm/",
+    "description": "Libre music composition software",
+    "license": "GPL-3.0-only",
+    "version": "3.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://ci.helio.fm/helio-3.3-x64.zip",
+            "hash": "e211e0995f29b61390da08469bf593763dad7239490026430d2e001843d6a73d"
+        },
+        "32bit": {
+            "url": "https://ci.helio.fm/helio-3.3-x32.zip",
+            "hash": "d01d1b52cc9a13ad55a50193e0bdeea096a50cabdbc076e204ab10c47f284e5c"
+        }
+    },
+    "shortcuts": [
+        [
+            "Helio.exe",
+            "Helio"
+        ]
+    ],
+    "checkver": {
+        "url": "https://docs.helio.fm/changelog.html",
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ci.helio.fm/helio-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://ci.helio.fm/helio-$version-x32.zip"
+            }
+        },
+    }
+}
