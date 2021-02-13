@@ -6,7 +6,6 @@
     "url": "http://castledb.org/file/castledb-1.5-win.zip",
     "hash": "61d96d1cd7e1ccfbbb8e78edfee2528a3eeaeea513361a1be5ab243d24068d88",
     "extract_dir": "castledb",
-    "bin": "cdb.exe",
     "shortcuts": [
         [
             "cdb.exe",
