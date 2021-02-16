@@ -23,6 +23,16 @@
         "url": "http://download.tuxfamily.org/makehuman/releases/makehuman-community-$version-windows.zip",
         "hash": {
             "url": "$baseurl/md5sums.txt"
+        },
+        "architecture": {
+            "64bit": {
+                "shortcuts": [
+                    [
+                        "makehuman-community-$version-windows.exe",
+                        "MakeHuman"
+                    ]
+                ]
+            }
         }
     }
 }
