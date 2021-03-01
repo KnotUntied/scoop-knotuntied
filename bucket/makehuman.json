@@ -16,8 +16,8 @@
         }
     },
     "checkver": {
-        "url": "http://www.makehumancommunity.org/content/downloads.html",
-        "regex": "stable release \\(([\\d.]+)\\)"
+        "url": "http://download.tuxfamily.org/makehuman/releases/",
+        "regex": "makehuman-community-([\\d.]+)-windows.zip"
     },
     "autoupdate": {
         "url": "http://download.tuxfamily.org/makehuman/releases/makehuman-community-$version-windows.zip",
