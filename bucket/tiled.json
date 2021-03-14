@@ -1,7 +1,7 @@
 {
     "version": "1.4.3",
     "description": "A flexible level editor",
-    "homepage": "https://github.com/mapeditor/tiled",
+    "homepage": "https://www.mapeditor.org/",
     "license": {
         "identifier": "GPL-2.0-only",
         "url": "https://github.com/mapeditor/tiled/blob/master/COPYING"
@@ -20,7 +20,9 @@
             "Tiled"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/mapeditor/tiled"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
