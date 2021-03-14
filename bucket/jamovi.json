@@ -19,7 +19,7 @@
     ],
     "checkver": {
         "url": "https://www.jamovi.org/download.html",
-        "regex": "([\\d.]+) current"
+        "regex": "([\\d.]+)\\s+current"
     },
     "autoupdate": {
         "architecture": {
