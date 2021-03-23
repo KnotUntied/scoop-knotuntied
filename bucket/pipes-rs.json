@@ -2,11 +2,11 @@
     "homepage": "https://github.com/CookieCoder15/pipes-rs",
     "description": "An over-engineered rewrite of pipes.sh in Rust",
     "license": "Apache-2.0",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CookieCoder15/pipes-rs/releases/download/v1.4.0/pipes-rs-windows-x86_64.zip",
-            "hash": "a0e2e3ec61c7ea8f4bdfec9abd8230d2436367807c92b6cfe5af02a504fa0f94"
+            "url": "https://github.com/CookieCoder15/pipes-rs/releases/download/v1.4.1/pipes-rs-windows-x86_64.zip",
+            "hash": "dc252cea15ca82cc403bcdd69c3e4f79d0434ee21ccf10cb6a5ebb71f90ad48e"
         }
     },
     "bin": "pipes-rs.exe",
