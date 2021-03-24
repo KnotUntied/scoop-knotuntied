@@ -14,7 +14,7 @@
         "e7d58c7c40c804c74253a04ea79b916c0024205d1cd6683f9fbf268a98578ed2",
         "3a6076ccebe77cf1bbe4d93381690a916c2edaf60ac6d4d8cacdce476927ba79"
     ],
-    "pre_install": "Set-Content \"$dir\\LC3sim.bat\" \"@start javaw.exe javaw -jar \"\"%~dp0LC3sim.jar\"\"\" -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\LC3sim.bat\" \"@start javaw.exe javaw -jar \"\"%~dp0\\LC3sim.jar\"\"\" -Encoding Ascii",
     "shortcuts": [
         [
             "LC3sim.bat",
