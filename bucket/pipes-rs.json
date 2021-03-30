@@ -2,11 +2,11 @@
     "homepage": "https://github.com/lhvy/pipes-rs",
     "description": "An over-engineered rewrite of pipes.sh in Rust",
     "license": "Apache-2.0",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lhvy/pipes-rs/releases/download/v1.4.1/pipes-rs-windows-x86_64.zip",
-            "hash": "dc252cea15ca82cc403bcdd69c3e4f79d0434ee21ccf10cb6a5ebb71f90ad48e"
+            "url": "https://github.com/lhvy/pipes-rs/releases/download/v1.4.2/pipes-rs-windows-x86_64.zip",
+            "hash": "99ce8b7f517e69ca15990204559f0cab8fc4a66bc3a8953f046c3e01c5ad813d"
         }
     },
     "bin": "pipes-rs.exe",
