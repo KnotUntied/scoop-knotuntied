@@ -10,6 +10,10 @@
         "64bit": {
             "url": "https://github.com/mapeditor/tiled/releases/download/v1.4.3/Tiled-1.4.3-win64.msi",
             "hash": "99bb2490c2e3480039cda79b270e258e55fb3cf624164734b69333267dfbda7b"
+        },
+        "32bit": {
+            "url": "https://github.com/mapeditor/tiled/releases/download/v1.4.3/Tiled-1.4.3-win32.msi",
+            "hash": "99bb2490c2e3480039cda79b270e258e55fb3cf624164734b69333267dfbda7b"
         }
     },
     "extract_dir": "PFiles\\Tiled",
@@ -26,7 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.scootersoftware.com/BCompare-$version_x64.msi"
+                "url": "https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version-win64.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version-win32.msi"
             }
         }
     }
