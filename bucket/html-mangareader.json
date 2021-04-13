@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/luejerry/html-mangareader",
+    "description": "A lightweight CBZ/CBR and image viewer with full continuous scrolling",
+    "license": "MIT",
+    "version": "1.8.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/luejerry/html-mangareader/releases/download/v1.8.0/mangareader-win64-1.8.0.zip",
+            "hash": "241f55f2c43391cffd292225f815fcec444a505c5dcfb5f79ea0ea794fe77ea4"
+        }
+    },
+    "extract_dir": "mangareader",
+    "bin": "mangareader.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/luejerry/html-mangareader/releases/download/v$version/mangareader-win64-$version.zip"
+            }
+        }
+    }
+}
