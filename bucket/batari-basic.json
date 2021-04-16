@@ -1,0 +1,29 @@
+{
+    "homepage": "https://github.com/batari-Basic/batari-Basic",
+    "description": "A BASIC-like language for creating games that run on the Atari 2600 console.",
+    "license": "https://raw.githubusercontent.com/batari-Basic/batari-Basic/master/LICENSE.txt",
+    "version": "1.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/batari-Basic/batari-Basic/releases/download/v1.5/bB-1.5-win-x64.zip",
+            "hash": "f3ab40376d8aa401b6768e44d471308a1baa822a6e7a842e39dd8eae2fa26d85"
+        },
+        "32bit": {
+            "url": "https://github.com/batari-Basic/batari-Basic/releases/download/v1.5/bB-1.5-win-x86.zip",
+            "hash": "9ce0f20c7fbcaa5387a9f29fddaa05d937e7ec76c1b7d9296e2f259de37454f7"
+        }
+    },
+    "extract_dir": "bB",
+    "post_install": "install_win.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/batari-Basic/batari-Basic/releases/download/v$version/bB-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/batari-Basic/batari-Basic/releases/download/v$version/bB-$version-win-x86.zip"
+            }
+        }
+    }
+}
