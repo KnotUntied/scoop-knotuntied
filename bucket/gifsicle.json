@@ -27,6 +27,6 @@
                 "url": "https://eternallybored.org/misc/gifsicle/releases/gifsicle-$version-win32.zip"
             }
         },
-        "extract_dir": "gifsicle-$version",
+        "extract_dir": "gifsicle-$version"
     }
 }
