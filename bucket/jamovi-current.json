@@ -2,15 +2,14 @@
     "homepage": "https://www.jamovi.org/",
     "description": "Free and open statistical software",
     "license": "AGPL-3.0-only",
-    "version": "1.8.0",
+    "version": "1.8.0.0",
     "architecture": {
         "64bit": {
             "url": "https://www.jamovi.org/downloads/jamovi-1.8.0.0-win64.zip",
-            "hash": "276696ae8537a9c84a83e212ce647621154af550045247d19bebb2987df8b30b"
+            "hash": "276696ae8537a9c84a83e212ce647621154af550045247d19bebb2987df8b30b",
+            "extract_dir": "jamovi-1.8.0.0-win64",
         }
     },
-    "extract_dir": "jamovi-1.6.16.0-win64",
-    "bin": "bin\\jamovi.exe",
     "shortcuts": [
         [
             "bin\\jamovi.exe",
@@ -19,13 +18,13 @@
     ],
     "checkver": {
         "url": "https://www.jamovi.org/download.html",
-        "regex": "([\\d.]+)\\s+current"
+        "regex": "(?sm)/downloads/jamovi-([\\d.]+)\\-win64\\.exe.*?current"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.jamovi.org/downloads/jamovi-$version.0-win64.zip",
-                "extract_dir": "jamovi-$version.0-win64"
+                "url": "https://www.jamovi.org/downloads/jamovi-$version-win64.zip",
+                "extract_dir": "jamovi-$version-win64"
             }
         }
     }
