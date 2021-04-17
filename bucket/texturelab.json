@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/njbrown/texturelab",
+    "description": "Free, Cross-Platform, GPU-Accelerated Procedural Texture Generator",
+    "license": "GPL-3.0-or-later",
+    "version": "0.3.0",
+    "url": "https://github.com/njbrown/texturelab/releases/download/v0.3.0/texturelab-win-v0.3.0.zip",
+    "hash": "32f67404530db57990493b4746722d947646bf97ce9b53986fabc232fa54ff8c",
+    "shortcuts": [
+        [
+            "texturelab.exe",
+            "TextureLab"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/njbrown/texturelab/releases/download/v$version/texturelab-win-v$version.zip"
+    }
+}
