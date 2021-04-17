@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "url": "https://www.jamovi.org/download.html",
-        "regex": "(?sm)/downloads/jamovi-([\\d.]+)\\-win64\\.exe.*?current"
+        "regex": "(?sm)jamovi\\-([\\d.]+)\\-win64\\.exe.[>\\d.\\s]+current"
     },
     "autoupdate": {
         "architecture": {
