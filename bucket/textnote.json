@@ -2,11 +2,11 @@
     "homepage": "https://github.com/dkaslovsky/textnote",
     "description": "Simple tool for creating and organizing daily notes on the command line",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dkaslovsky/textnote/releases/download/v1.1.1/textnote_windows_amd64.exe",
-            "hash": "d0c7e0dea4c8851b3687b587a335b1f72401181d8f37097d8512700a9932b5c1"
+            "url": "https://github.com/dkaslovsky/textnote/releases/download/v1.2.0/textnote_windows_amd64.exe",
+            "hash": "25ff5f3992e5b46a60b0f3aac935b2a44480b9ba2d2e1dffb4edc5ab8724912b"
         }
     },
     "bin": [
