@@ -2,11 +2,11 @@
     "homepage": "https://www.ponylang.io/",
     "description": "Open-source, actor-model, capabilities-secure, high performance programming language",
     "license": "BSD-2-Clause",
-    "version": "0.39.1",
+    "version": "0.40.0",
     "architecture": {
         "64bit": {
-            "url": "https://dl.cloudsmith.io/public/ponylang/releases/raw/versions/0.39.1/ponyc-x86-64-pc-windows-msvc.zip",
-            "hash": "bce9e5403b66fa5642ecb42a07b9e125d40fe1b86b14d2f2946ac9274ecf2138"
+            "url": "https://dl.cloudsmith.io/public/ponylang/releases/raw/versions/0.40.0/ponyc-x86-64-pc-windows-msvc.zip",
+            "hash": "3338c1ef51f29741fa77e9a30a17e90a8fc557ca78e3203858674ba2423a68bb"
         }
     },
     "bin": "bin\\ponyc.exe",
