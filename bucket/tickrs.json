@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/tarkah/tickrs",
+    "description": "Realtime ticker data in your terminal",
+    "license": "MIT",
+    "version": "0.14.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tarkah/tickrs/releases/download/v0.14.4/tickrs-v0.14.4-x86_64-pc-windows-msvc.zip",
+            "hash": "567fe06ad754b6da03a3a9a63479bacee62a769b9d86604527e841c41af75bd3"
+        }
+    },
+    "bin": "tickrs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tarkah/tickrs/releases/download/v$version/tickrs-v$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
