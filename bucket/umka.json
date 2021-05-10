@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/vtereshkov/umka-lang",
+    "description": "Statically typed embeddable scripting language",
+    "license": "BSD-2-Clause",
+    "version": "0.5.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vtereshkov/umka-lang/releases/download/v0.5.1/umka_0.5.1_x86-64_windows_mingw.zip",
+            "hash": "a797616bc62c1a04b844a0005d80b856c23e45e7143abba8e1543d716e6115ef",
+            "extract_dir": "umka_0.5.1_x86-64_windows_mingw"
+        }
+    },
+    "bin": "umka.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vtereshkov/umka-lang/releases/download/v$version/umka_$version_x86-64_windows_mingw.zip",
+                "extract_dir": "umka_$version_x86-64_windows_mingw"
+            }
+        }
+    }
+}
