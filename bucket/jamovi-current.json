@@ -2,12 +2,12 @@
     "homepage": "https://www.jamovi.org/",
     "description": "Free and open statistical software",
     "license": "AGPL-3.0-only",
-    "version": "1.8.1.0",
+    "version": "1.8.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.jamovi.org/downloads/jamovi-1.8.1.0-win64.zip",
-            "hash": "c5ce7e212a79099a481eeee6d8dd63882c2954694b181ba6f36b960e5f71a526",
-            "extract_dir": "jamovi-1.8.1.0-win64"
+            "url": "https://www.jamovi.org/downloads/jamovi-1.8.2.0-win64.zip",
+            "hash": "e8b1c55e2d77cc87b07cd4c6cc834a002562e55b10dc8b45a52152cdc4c25e8a",
+            "extract_dir": "jamovi-1.8.2.0-win64"
         }
     },
     "shortcuts": [
