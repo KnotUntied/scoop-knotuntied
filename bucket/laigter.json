@@ -2,9 +2,9 @@
     "homepage": "https://github.com/azagaya/laigter",
     "description": "Laigter: automatic normal map generator for sprites!",
     "license": "GPL-3.0-only",
-    "version": "1.10.5",
-    "url": "https://github.com/azagaya/laigter/releases/download/1.10.5/LaigterPortable-1.10.5.zip",
-    "hash": "e1ced803f16eba28fef05b41d31f22b88c5ac5b22b6817976be16b083cf22bc6",
+    "version": "1.10.6",
+    "url": "https://github.com/azagaya/laigter/releases/download/1.10.6/LaigterPortable-1.10.6.zip",
+    "hash": "790372dbd892508db366ccf23f13f0e6af9ec42543cb342022c901f77ae546e9",
     "extract_dir": "LaigterPortable",
     "bin": "laigter.exe",
     "shortcuts": [
