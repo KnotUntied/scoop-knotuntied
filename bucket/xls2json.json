@@ -2,11 +2,11 @@
     "homepage": "https://github.com/tammoippen/xls2json",
     "description": "Read in Excel file (.xls, .xlsx, .xlsm) and output JSON.",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tammoippen/xls2json/releases/download/v1.0.0/xls2json-windows-amd64-1.0.0.zip",
-            "hash": "29ee61677d350e5c0811dc68132de357e0145045975dc1e9b709b9b78ae83351"
+            "url": "https://github.com/tammoippen/xls2json/releases/download/v1.1.0/xls2json-windows-amd64-1.1.0.zip",
+            "hash": "be043fd54364bafd317a3a8f38bd7e7e075eb41a3f58e1c8800247ccaa027a44"
         }
     },
     "extract_dir": "xls2json-windows-amd64",
