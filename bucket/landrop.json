@@ -1,0 +1,19 @@
+{
+    "homepage": "https://landrop.app/",
+    "description": "Drop any files to any devices on your LAN.",
+    "license": "BSD-3-Clause",
+    "version": "0.4.0",
+    "url": "https://releases.landrop.app/LANDrop-latest-win.zip",
+    "hash": "cd4b27d77212731f70cf24d7fbcfd89cb44df060fa66efe7bd3464675afd4be4",
+    "extract_dir": "LANdrop",
+    "shortcuts": [
+        [
+            "LANDrop.exe",
+            "LANDrop"
+        ]
+    ],
+    "checkver": "<td id=\"version-win\">([\\d\\.]+)<\\/td>",
+    "autoupdate": {
+        "url": "https://releases.landrop.app/LANDrop-latest-win.zip"
+    }
+}
