@@ -5,7 +5,7 @@
     "version": "2021.6.13",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/huxingyi/dust3d/releases/download/1.0.0-rc.6/dust3d-1.0.0-rc.6.zip",
+            "url": "https://github.com/loganmc10/m64p/releases/download/v2021.6.13/m64p-win64-938c08c.zip",
             "hash": "f79de90ed89218ccbab406aa9c6cb28261d19125a38f4a4f708b9aef6aa4e9e8",
             "extract_dir": "mupen64plus"
         }
