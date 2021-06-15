@@ -1,0 +1,30 @@
+{
+    "homepage": "https://m64p.github.io/",
+    "description": "N64 emulator",
+    "license": "GPL-3.0-only",
+    "version": "2021.6.13",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/huxingyi/dust3d/releases/download/1.0.0-rc.6/dust3d-1.0.0-rc.6.zip",
+            "hash": "f79de90ed89218ccbab406aa9c6cb28261d19125a38f4a4f708b9aef6aa4e9e8",
+            "extract_dir": "mupen64plus"
+        }
+    },
+    "shortcuts": [
+        [
+            "mupen64plus-gui.exe",
+            "m64p"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/loganmc10/m64p",
+        "re": ".*\\/m64p\\/releases\\/download\\/(?:v|V)?([\\d.]+)\\/m64p-win64-(?<commit>[a-f\\d]+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/loganmc10/m64p/releases/download/v$version/m64p-win64-$commit.zip"
+            }
+        }
+    }
+}
