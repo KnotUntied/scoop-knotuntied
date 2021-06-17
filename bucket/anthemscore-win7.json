@@ -15,7 +15,10 @@
             "AnthemScore"
         ]
     ],
-    "checkver": "see what\\'s new in ([\\d.]+)",
+    "checkver": {
+        "url": "https://www.lunaverus.com/download"
+        "re": "see what\'s new in ([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
