@@ -16,7 +16,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.lunaverus.com/download"
+        "url": "https://www.lunaverus.com/download",
         "re": "see what\'s new in ([\\d.]+)"
     },
     "autoupdate": {
