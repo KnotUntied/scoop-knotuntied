@@ -12,7 +12,7 @@
             "LANDrop"
         ]
     ],
-    "checkver": "<td id=\"version-win\">([\\d\\.]+)<\\/td>",
+    "checkver": "<td id=\"version-win\">([\\d\\.]+)<\/td>",
     "autoupdate": {
         "url": "https://releases.landrop.app/LANDrop-latest-win.zip"
     }
