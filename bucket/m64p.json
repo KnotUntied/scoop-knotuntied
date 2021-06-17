@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "github": "https://github.com/loganmc10/m64p",
-        "re": ".*\\/m64p\\/releases\\/download\\/(?:v|V)?([\\d.]+)\\/m64p-win64-(?<commit>[a-f\\d]+).zip"
+        "re": ".*\/m64p\/releases\/download\/(?:v|V)?([\\d.]+)\/m64p-win64-(?<commit>[a-f\\d]+).zip"
     },
     "autoupdate": {
         "architecture": {
