@@ -11,7 +11,7 @@
             "CCSIO Benchmark"
         ]
     ],
-    "checkver": "(?sm)<td>Version</td>[\\s]<td>([\\d.]+)</td>",
+    "checkver": "<td>Version</td>[\\s]+<td>([\\d.]+)</td>",
     "autoupdate": {
         "url": "https://ccsiobench.com/get"
     }
