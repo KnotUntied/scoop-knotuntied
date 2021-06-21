@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/loganmc10/m64p/releases/download/v$version/m64p-win64-$commit.zip"
+                "url": "https://github.com/loganmc10/m64p/releases/download/v$version/m64p-win64-$matchCommit.zip"
             }
         }
     }
