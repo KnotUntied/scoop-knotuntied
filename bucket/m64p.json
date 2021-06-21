@@ -2,11 +2,11 @@
     "homepage": "https://m64p.github.io/",
     "description": "N64 emulator",
     "license": "GPL-3.0-only",
-    "version": "2021.6.13",
+    "version": "2021.6.21",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/loganmc10/m64p/releases/download/v2021.6.13/m64p-win64-938c08c.zip",
-            "hash": "f79de90ed89218ccbab406aa9c6cb28261d19125a38f4a4f708b9aef6aa4e9e8",
+            "url": "https://github.com/loganmc10/m64p/releases/download/v2021.6.21/m64p-win64-b16fb1c.zip",
+            "hash": "48a1b21e3f9998cd8b4ef80fbe476a606c65c49e25a09f90a7d18af4df987ab2",
             "extract_dir": "mupen64plus"
         }
     },
@@ -18,7 +18,7 @@
     ],
     "checkver": {
         "github": "https://github.com/loganmc10/m64p",
-        "re": ".*\/m64p\/releases\/download\/(?:v|V)?(?<version>[\\d.]+)\/m64p-win64-(?<commit>[a-f\\d]+).zip"
+        "re": ".*/m64p/releases/download/(?:v|V)?(?<version>[\\d.]+)/m64p-win64-(?<commit>[a-f\\d]+).zip"
     },
     "autoupdate": {
         "architecture": {
