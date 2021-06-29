@@ -2,19 +2,19 @@
     "homepage": "https://github.com/darylhjd/mangadesk",
     "description": "Terminal client for MangaDex",
     "license": "MIT",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.1/mangadesk_win64.exe",
-            "hash": "300f34e38b1b7bb3300a8f8efe553dce21a8724a26bdb2f541dab94181a7d321",
+            "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.2/mangadesk_win64.exe",
+            "hash": "62b5ff70d2f6825be623bb807011ac5427f7aed8efc562f2c48ba720a016c4e5",
             "bin": [
                 "mangadesk_win64.exe",
                 "mangadesk"
             ]
         },
         "32bit": {
-            "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.1/mangadesk_win32.exe",
-            "hash": "f51fb95d799bd2e7dd06a49e06cfda846fe80d6393da06c66618ee3f92170f71",
+            "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.2/mangadesk_win32.exe",
+            "hash": "3f6b61ba8eb810d3cb20a704894a1beb188bec473ff6551b5f37cd6fb6144805",
             "bin": [
                 "mangadesk_win32.exe",
                 "mangadesk"
