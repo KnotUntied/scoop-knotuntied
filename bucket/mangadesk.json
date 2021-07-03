@@ -8,16 +8,20 @@
             "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.2/mangadesk_win64.exe",
             "hash": "62b5ff70d2f6825be623bb807011ac5427f7aed8efc562f2c48ba720a016c4e5",
             "bin": [
-                "mangadesk_win64.exe",
-                "mangadesk"
+                [
+                    "mangadesk_win64.exe",
+                    "mangadesk"
+                ]
             ]
         },
         "32bit": {
             "url": "https://github.com/darylhjd/mangadesk/releases/download/v0.5.2/mangadesk_win32.exe",
             "hash": "3f6b61ba8eb810d3cb20a704894a1beb188bec473ff6551b5f37cd6fb6144805",
             "bin": [
-                "mangadesk_win32.exe",
-                "mangadesk"
+                [
+                    "mangadesk_win32.exe",
+                    "mangadesk"
+                ]
             ]
         }
     },
