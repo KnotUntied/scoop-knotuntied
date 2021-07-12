@@ -1,0 +1,17 @@
+{
+    "description": "A rewrite of Tachiyomi for the Desktop",
+    "homepage": "https://github.com/Suwayomi/Tachidesk",
+    "license": "MPL-2.0",
+    "version": "0.4.3",
+    "url": "https://github.com/Suwayomi/Tachidesk/releases/download/v0.4.3/Tachidesk-v0.4.3-r670.jar#/Tachidesk.jar",
+    "hash": "debf1e76115d857806fe8c00c8c6cfc7efd370f790e089b570ec7d0f644eb29a",
+    "bin": "Tachidesk.jar",
+    "suggest": "java/oraclejre8",
+    "checkver": {
+        "github": "https://github.com/Suwayomi/Tachidesk",
+        "regex": "Tachidesk-v([\\d.]+)-r(?<string>[\\d]+)\\.jar"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Suwayomi/Tachidesk/releases/download/v$version/Tachidesk-v$version-r$matchString.jar#/Tachidesk.jar"
+    }
+}
