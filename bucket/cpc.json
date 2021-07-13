@@ -2,11 +2,11 @@
     "homepage": "https://github.com/probablykasper/cpc",
     "description": "Text calculator with support for units and conversion",
     "license": "MIT",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/probablykasper/cpc/releases/download/v1.6.0/cpc-v1.6.0-windows-x64.zip",
-            "hash": "6f7b294e8d3111edb37aac8746a54765cbfce4a0270272493d40e65d438a12dd"
+            "url": "https://github.com/probablykasper/cpc/releases/download/v1.7.0/cpc-v1.7.0-windows-x64.zip",
+            "hash": "aa9b461bece2b3c565ac78d32956fd4bb85b82660184700d558600a69a8a6f80"
         }
     },
     "bin": "cpc.exe",
