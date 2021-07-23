@@ -2,10 +2,10 @@
     "homepage": "https://github.com/mbrlabs/Lorien",
     "description": "Infinite canvas 'drawing' app for Windows, Linux and Mac. Based on Godot.",
     "license": "MIT",
-    "version": "0.2.0",
-    "url": "https://github.com/mbrlabs/Lorien/releases/download/v0.2.0/Lorien_v0.2.0_Windows.zip",
-    "hash": "07233c892c4d23412baba3f09624b82ec4e11192924ec4f7ad30d5fdec5e5b5c",
-    "extract_dir": "Lorien_v0.2.0_Windows",
+    "version": "0.3.0",
+    "url": "https://github.com/mbrlabs/Lorien/releases/download/v0.3.0/Lorien_v0.3.0_Windows.zip",
+    "hash": "6716273a3316ac91a8a6e57b10dc0e8820c04e74d2964eef3764483ccbe81c98",
+    "extract_dir": "Lorien_v0.3.0_Windows",
     "shortcuts": [
         [
             "Lorien.exe",
