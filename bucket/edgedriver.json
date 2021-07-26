@@ -16,7 +16,13 @@
             "hash": "69f5af7c881fe4e9464be12e1fab27bdb5dbf949ad7b8496984c03b2f95d67fc"
         }
     },
-    "bin": "msedgedriver.exe",
+    "bin": [
+        "msedgedriver.exe",
+        [
+            "msedgedriver.exe",
+            "MicrosoftWebDriver"
+        ]
+    ],
     "checkver": "stable channel, version ([\\d.]+)",
     "autoupdate": {
         "architecture": {
