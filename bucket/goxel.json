@@ -2,9 +2,9 @@
     "homepage": "https://goxel.xyz/",
     "description": "Open Source Voxel Editor for Windows, Mac, Linux, iOS, and Android.",
     "license": "GPL-3.0-only",
-    "version": "0.10.7",
-    "url": "https://github.com/guillaumechereau/goxel/releases/download/v0.10.7/goxel-0.10.7-windows.zip",
-    "hash": "787b714b8e5dd733a2a6c3e8cd1017bd78d13f386258888710d05ca9ee1a6952",
+    "version": "0.10.8",
+    "url": "https://github.com/guillaumechereau/goxel/releases/download/v0.10.8/goxel-0.10.8-windows.zip",
+    "hash": "2c43cce540c63b804109f66722d16ec59a29836493bd98118ecf4af5c5bbd25f",
     "bin": "goxel.exe",
     "shortcuts": [
         [
