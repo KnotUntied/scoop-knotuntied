@@ -2,9 +2,9 @@
     "homepage": "https://ravenreader.app/",
     "description": "Open source desktop news reader",
     "license": "MIT",
-    "version": "1.0.66",
-    "url": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v1.0.66/Raven-1.0.66_portable.exe",
-    "hash": "85a63fa3de3b652bb3e059f3339d656df2d5c1e1ee4be24055ee714181759cad",
+    "version": "1.0.67",
+    "url": "https://github.com/hello-efficiency-inc/raven-reader/releases/download/v1.0.67/Raven-1.0.67_portable.exe",
+    "hash": "e208228aa6bfd108d1398785886995271307898cfe74fc5256bcb94139198bf2",
     "shortcuts": [
         [
             "Raven-1.0.52_portable.exe",
