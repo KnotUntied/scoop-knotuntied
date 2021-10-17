@@ -2,9 +2,9 @@
     "homepage": "http://hofknecht.eu/systemtraymenu/",
     "description": "Browse and open your files easily",
     "license": "GPL-3.0-only",
-    "version": "1.0.21.0",
-    "url": "https://github.com/Hofknecht/SystemTrayMenu/releases/download/v1.0.21.0/SystemTrayMenu-1.0.21.0.zip",
-    "hash": "e6c07b789644e9b793e40e15fdec3428131c261952872528f449465901f44adc",
+    "version": "1.0.22.0",
+    "url": "https://github.com/Hofknecht/SystemTrayMenu/releases/download/v1.0.22.0/SystemTrayMenu-1.0.22.0.zip",
+    "hash": "52fe749fc773d214bede6f60fd6d2993e80a0c1397c66c031145a1286cb76fc4",
     "bin": "SystemTrayMenu.exe",
     "shortcuts": [
         [
