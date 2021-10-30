@@ -2,9 +2,9 @@
     "homepage": "https://github.com/H-M-H/Weylus",
     "description": "Use your tablet as graphic tablet/touch screen on your computer.",
     "license": "AGPL-3.0-or-later",
-    "version": "0.11.2",
-    "url": "https://github.com/H-M-H/Weylus/releases/download/v0.11.2/Windows.zip",
-    "hash": "55dec49187d9bfdbf1ffc2d256c4dd9b2f1e6e2760a19162fb4f135f311c5a07",
+    "version": "0.11.3",
+    "url": "https://github.com/H-M-H/Weylus/releases/download/v0.11.3/Windows.zip",
+    "hash": "f656b92468b9341b6d4cff801034bb94b75c4c2deead17e2a25d6794cd72f504",
     "bin": "weylus.exe",
     "shortcuts": [
         [
