@@ -2,9 +2,9 @@
     "homepage": "https://github.com/hhyyrylainen/GodotPckTool",
     "description": "Standalone tool for extracting and creating Godot .pck files",
     "license": "MIT",
-    "version": "1.5",
-    "url": "https://github.com/hhyyrylainen/GodotPckTool/releases/download/v1.5/godotpcktool.exe",
-    "hash": "2acc86607422fec5df07ac1dd386c299e929edff268b7c3d010a68701eebe78c",
+    "version": "1.6",
+    "url": "https://github.com/hhyyrylainen/GodotPckTool/releases/download/v1.6/godotpcktool.exe",
+    "hash": "9c8f8e9daf2320e6816b2f5b47e1bf6a272addc0a56e38fe68ceb56e526c82cc",
     "bin": "godotpcktool.exe",
     "checkver": "github",
     "autoupdate": {
