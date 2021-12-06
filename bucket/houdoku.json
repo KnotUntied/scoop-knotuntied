@@ -2,9 +2,9 @@
     "homepage": "https://houdoku.org/",
     "description": "Manga reader and library manager for the desktop",
     "license": "MIT",
-    "version": "2.6.0",
-    "url": "https://github.com/xgi/houdoku/releases/download/v2.6.0/Houdoku-Setup-2.6.0.exe#/dl.7z",
-    "hash": "02d09e9fac41fd7d86d5741bfa1c090826ecfe8da7b705eef700da99263a7b53",
+    "version": "2.7.0",
+    "url": "https://github.com/xgi/houdoku/releases/download/v2.7.0/Houdoku-Setup-2.7.0.exe#/dl.7z",
+    "hash": "033ec2928c2c51ba2dcf43ea7400bb4f3cb181914a81ba32397f0d1836d9c6e6",
     "shortcuts": [
         [
             "Houdoku.exe",
