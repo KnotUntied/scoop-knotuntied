@@ -2,11 +2,11 @@
     "homepage": "https://go.tacodewolff.nl/minify",
     "description": "Go minifiers for web formats",
     "license": "MIT",
-    "version": "2.9.25",
+    "version": "2.9.26",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tdewolff/minify/releases/download/v2.9.25/minify_windows_amd64.zip",
-            "hash": "1702dbb73709578c1481e8f4e177097e226cad5750ea1421f03ec47e6456e1f2"
+            "url": "https://github.com/tdewolff/minify/releases/download/v2.9.26/minify_windows_amd64.zip",
+            "hash": "3d15f6665825d9bf0d4db1821098a489040657f4db54668c04ce8f341dcae446"
         }
     },
     "bin": "minify.exe",
