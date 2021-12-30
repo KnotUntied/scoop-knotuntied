@@ -1,0 +1,26 @@
+{
+    "homepage": "https://tailwindcss.com/blog/standalone-cli",
+    "description": "Standalone CLI for Tailwind CSS without Node.js",
+    "license": "MIT",
+    "version": "3.0.8",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.0.8/tailwindcss-windows-x64.exe",
+            "hash": "2af609e4727675b50a731e60e426a68d2c26e68572701a62229ce9915649bb99"
+        }
+    },
+    "bin": [
+        "tailwindcss-windows-x64.exe",
+        "tailwindcss"
+    ],
+    "checkver": {
+        "github": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tailwindlabs/tailwindcss/releases/download/v$version/tailwindcss-windows-x64.exe"
+            }
+        }
+    }
+}
