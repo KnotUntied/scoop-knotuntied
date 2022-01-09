@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.giadamusic.com/",
+    "description": "Open-source minimalistic music production tool",
+    "license": "GPL-3.0-only",
+    "version": "0.19.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.giadamusic.com/data/giada-v0.19.2-x86_64-windows.zip",
+            "hash": "b9913123704378ef3cbe3ca072ee5886e05ff9d6786227e7ea87b2be8ccd56af"
+        }
+    },
+    "shortcuts": [
+        [
+            "giada.exe",
+            "Giada"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/monocasual/giada"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.giadamusic.com/data/giada-v$version-x86_64-windows.zip"
+            }
+        }
+    }
+}
