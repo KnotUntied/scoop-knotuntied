@@ -12,7 +12,9 @@
             "Shattered Pixel Dungeon"
         ]
     ],
-    "suggest": "java/oraclejre8",
+    "suggest": {
+        "oraclejre8": "java/oraclejre8"
+    },
     "checkver": {
         "github": "https://github.com/00-Evan/shattered-pixel-dungeon"
     },
