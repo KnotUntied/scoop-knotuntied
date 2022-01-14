@@ -13,7 +13,9 @@
             "TachideskJUI"
         ]
     ],
-    "suggest": "java/oraclejre8",
+    "suggest": {
+        "oraclejre8": "java/oraclejre8"
+    },
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Suwayomi/TachideskJUI/releases/download/v$version/TachideskJUI-windows-x64-$version.msi"
