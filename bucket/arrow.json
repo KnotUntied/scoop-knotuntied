@@ -2,17 +2,17 @@
     "homepage": "https://github.com/mhgolkar/Arrow",
     "description": "Game Narrative Design Tool",
     "license": "MIT",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mhgolkar/Arrow/releases/download/v1.4.0/Arrow-v1.4.0-win.64.zip",
-            "hash": "4025aaa13580b6623ab51e780095f6ea1092de201890bcf610899046255f4537",
-            "extract_dir": "Arrow-v1.4.0-win.64"
+            "url": "https://github.com/mhgolkar/Arrow/releases/download/v1.5.0/Arrow-v1.5.0-win.64.zip",
+            "hash": "3548af7332569a46c1a14e60e083964218c55338758aedbfa21e9091d256fd25",
+            "extract_dir": "Arrow-v1.5.0-win.64"
         },
         "32bit": {
-            "url": "https://github.com/mhgolkar/Arrow/releases/download/v1.4.0/Arrow-v1.4.0-win.32.zip",
-            "hash": "14fce976488267374dcf6ba36cfb5f20ff50ccdfad15f20c26cf8bbc66a9637e",
-            "extract_dir": "Arrow-v1.4.0-win.32"
+            "url": "https://github.com/mhgolkar/Arrow/releases/download/v1.5.0/Arrow-v1.5.0-win.32.zip",
+            "hash": "3da84c34047653d3b9ca9ea2110a9e2d04d97ef886a30a1aa4ebacd78abf00cf",
+            "extract_dir": "Arrow-v1.5.0-win.32"
         }
     },
     "bin": "Arrow.exe",
