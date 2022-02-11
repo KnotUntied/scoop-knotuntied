@@ -2,9 +2,9 @@
     "homepage": "https://luau-lang.org/",
     "description": "A fast, small, safe, gradually typed embeddable scripting language derived from Lua",
     "license": "MIT",
-    "version": "0.513",
-    "url": "https://github.com/Roblox/luau/releases/download/0.513/luau-windows.zip",
-    "hash": "052ff02907f46e221bbd78754954742ea42d24de56cd30d7bdc2f03779c3955d",
+    "version": "0.514",
+    "url": "https://github.com/Roblox/luau/releases/download/0.514/luau-windows.zip",
+    "hash": "df82a30e301530806e8934ec2966ae2a472fa00c53459ba915d45d76fc718f4d",
     "bin": [
         "luau.exe",
         "luau-analyze.exe"
