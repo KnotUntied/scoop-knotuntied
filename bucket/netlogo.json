@@ -10,7 +10,7 @@
         },
         "32bit": {
             "url": "http://ccl.northwestern.edu/netlogo/6.2.2/NetLogo-6.2.2-32.msi",
-            "hash": "68734426b8fd1e77ad259af2d7a163ca6980d21f60eb9ff01b97eedb0ccbeac8"
+            "hash": "7cba8f2ebedc86f4a5b7ef03970dfbc6ab47d56fd083c39c7ee68a272a6105d3"
         }
     },
     "extract_dir": "PFiles\\NetLogo 6.2.2",
