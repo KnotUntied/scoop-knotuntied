@@ -1,0 +1,38 @@
+{
+    "version": "6.2.2",
+    "description": "A multi-agent programmable modeling environment",
+    "homepage": "http://ccl.northwestern.edu/netlogo/",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "http://ccl.northwestern.edu/netlogo/6.2.2/NetLogo-6.2.2-64.msi",
+            "hash": "9ff23e9e470e449670f1bd177e1d3352bdc1c742c07eef0ebf7fe4cb4fcc53d0"
+        },
+        "32bit": {
+            "url": "http://ccl.northwestern.edu/netlogo/6.2.2/NetLogo-6.2.2-32.msi",
+            "hash": "68734426b8fd1e77ad259af2d7a163ca6980d21f60eb9ff01b97eedb0ccbeac8"
+        }
+    },
+    "extract_dir": "PFiles\\NetLogo 6.2.2",
+    "shortcuts": [
+        [
+            "NetLogo.exe",
+            "NetLogo"
+        ]
+    ],
+    "checkver": {
+        "url": "http://ccl.northwestern.edu/netlogo/docs/versions.html",
+        "regex": "NetLogo ([\\d.]+) User Manual"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://ccl.northwestern.edu/netlogo/$version/NetLogo-$version-64.msi"
+            },
+            "32bit": {
+                "url": "http://ccl.northwestern.edu/netlogo/$version/NetLogo-$version-32.msi"
+            }
+        },
+        "extract_dir": "PFiles\\NetLogo $version"
+    }
+}
