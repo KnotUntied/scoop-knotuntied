@@ -1,5 +1,5 @@
 {
-    "version": "1.8.4",
+    "version": "1.8.5",
     "description": "A flexible level editor",
     "homepage": "https://www.mapeditor.org/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mapeditor/tiled/releases/download/v1.8.4/Tiled-1.8.4-win64.msi",
-            "hash": "7f534a4fc149e27ae2747918d01643bcee3f5c9aec4f241eb0bd40463321c547"
+            "url": "https://github.com/mapeditor/tiled/releases/download/v1.8.5/Tiled-1.8.5-win64.msi",
+            "hash": "141b8ef00987aa4ff85f71281d1afbafd06b33baed212ea99bb3ef514806ab8a"
         },
         "32bit": {
-            "url": "https://github.com/mapeditor/tiled/releases/download/v1.8.4/Tiled-1.8.4-win32.msi",
-            "hash": "febfcbffd7b267aa1f54384be756c1782ca45018e938ee82357b06c857b90dc9"
+            "url": "https://github.com/mapeditor/tiled/releases/download/v1.8.5/Tiled-1.8.5-win32.msi",
+            "hash": "af2ccb1b075cb9ba6e80125f8b5d82552ec5bbdc5a565bef2403eb38e12dde83"
         }
     },
     "extract_dir": "PFiles\\Tiled",
