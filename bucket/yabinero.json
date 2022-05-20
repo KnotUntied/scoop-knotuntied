@@ -2,11 +2,11 @@
     "homepage": "https://github.com/nsalguero/yabinero",
     "description": "Binero game.",
     "license": "GPL-3.0-only",
-    "version": "1.52.0",
+    "version": "1.53.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nsalguero/yabinero/releases/download/v1.52.0/yabinero-1.52.0-x64.zip",
-            "hash": "819a243834ef9ca6aa9ec56f79488ac163b090cf574c5eafb57a52e4fc2ada72"
+            "url": "https://github.com/nsalguero/yabinero/releases/download/v1.53.0/yabinero-1.53.0-x64.zip",
+            "hash": "bc5468ad2362634bae0c49cf711897094521e0e3e3581775cdb778c0cea0e163"
         }
     },
     "extract_dir": "yabinero",
