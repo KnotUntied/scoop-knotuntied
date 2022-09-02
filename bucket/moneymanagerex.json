@@ -2,17 +2,17 @@
     "homepage": "https://www.moneymanagerex.org/",
     "description": "Money management application",
     "license": "GPL-2.0-only",
-    "version": "1.5.19",
+    "version": "1.5.20",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win64-portable.zip",
-            "hash": "c422454719d6efbce4ff4403eaade8dfe378b9a9ef0cebe91a03edc1117c1cf6",
-            "extract_dir": "mmex-1.5.19-win64"
+            "url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex-1.5.20-win64-portable.zip",
+            "hash": "91f886a96af94df9c70a793a6a8441e501e61557b1d6b1e312bb0f659ac1fdd5",
+            "extract_dir": "mmex-1.5.20-win64"
         },
         "32bit": {
-            "url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.19/mmex-1.5.19-win32-portable.zip",
-            "hash": "b2a96652e3c28c968fe34f1e8c84b14a2a58713adb550026769a271c08d8a69f",
-            "extract_dir": "mmex-1.5.19-win32"
+            "url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.5.20/mmex-1.5.20-win32-portable.zip",
+            "hash": "0045c70aa70938150c409c5812b4783732965d97937bf0c850ff70dc3883a7ca",
+            "extract_dir": "mmex-1.5.20-win32"
         }
     },
     "shortcuts": [
