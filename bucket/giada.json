@@ -2,11 +2,11 @@
     "homepage": "https://www.giadamusic.com/",
     "description": "Open-source minimalistic music production tool",
     "license": "GPL-3.0-only",
-    "version": "0.22.0",
+    "version": "0.23.0",
     "architecture": {
         "64bit": {
-            "url": "https://www.giadamusic.com/data/giada-v0.22.0-x86_64-windows.zip",
-            "hash": "d466300e0ddf0b30df57ba64f3f6fd61d37f197539630505e580f9bb87c7d217"
+            "url": "https://www.giadamusic.com/data/giada-v0.23.0-x86_64-windows.zip",
+            "hash": "a995e6017b30493037967e80bb19d7558c7d9218b40fb05d92f6cb863d81ffce"
         }
     },
     "shortcuts": [
