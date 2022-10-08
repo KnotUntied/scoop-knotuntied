@@ -2,9 +2,9 @@
     "homepage": "https://abau.org/dilay/",
     "description": "Cross-platform open-source 3D modeling software",
     "license": "GPL-3.0-only",
-    "version": "1.9.0",
-    "url": "https://github.com/abau/dilay/releases/download/1.9.0/dilay-1.9.0.msi",
-    "hash": "961ef5540f2da8c483b66743031c060b0eb4e5a7f6d6f507b24470f956b41889",
+    "version": "1.7.1",
+    "url": "https://github.com/abau/dilay/releases/download/1.7.1/dilay-1.7.1.msi",
+    "hash": "ed89837b471b89098b165e0572e1d491c46587879602c109bab883b3d5a4c91e",
     "extract_dir": "Dilay",
     "shortcuts": [
         [
