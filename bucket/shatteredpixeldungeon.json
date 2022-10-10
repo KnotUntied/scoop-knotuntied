@@ -2,9 +2,9 @@
     "description": "Traditional roguelike game with pixel-art graphics and simple interface",
     "homepage": "https://shatteredpixel.com/",
     "license": "GPL-3.0-only",
-    "version": "1.4.0",
-    "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v1.4.0/ShatteredPD-v1.4.0-Desktop.jar#/ShatteredPD-Desktop.jar",
-    "hash": "d57946b02b7b0ee8056658ce7aea7135fe3fe3d11486915faa4b71ba1d1dbd11",
+    "version": "1.4.1",
+    "url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v1.4.1/ShatteredPD-v1.4.1-Desktop.jar#/ShatteredPD-Desktop.jar",
+    "hash": "ca4b3a8a793043f35ce8be47cd9aa9867f0ddb216e6ce24542a77013a903b0fb",
     "pre_install": "Set-Content \"$dir\\shatteredpixeldungeon.bat\" @('@echo off', 'start javaw.exe -jar %~dp0ShatteredPD-Desktop.jar') -Encoding Ascii",
     "shortcuts": [
         [
