@@ -14,6 +14,10 @@
         "32bit": {
             "url": "https://msedgedriver.azureedge.net/106.0.1370.42/edgedriver_win32.zip",
             "hash": "c7a14738a5abb818fec6cdb3263e4809f730d3240e8147d84c3707c5a60d47b9"
+        },
+        "arm64": {
+            "url": "https://msedgedriver.azureedge.net/106.0.1370.42/edgedriver_arm64.zip",
+            "hash": "c8455b82167e1538672bc43bd23ec57f504c99de68b3e9912450e446db024d27"
         }
     },
     "bin": [
@@ -31,6 +35,9 @@
             },
             "32bit": {
                 "url": "https://msedgedriver.azureedge.net/$version/edgedriver_win32.zip"
+            },
+            "arm64": {
+                "url": "https://msedgedriver.azureedge.net/$version/edgedriver_arm64.zip"
             }
         }
     }
