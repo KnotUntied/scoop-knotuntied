@@ -2,9 +2,9 @@
     "homepage": "https://github.com/murrty/youtube-dl-gui",
     "description": "GUI for youtube-dl + FFmpeg",
     "license": "GPL-3.0-only",
-    "version": "3.1.0",
-    "url": "https://github.com/murrty/youtube-dl-gui/releases/download/3.1.0/youtube-dl-gui.zip",
-    "hash": "4c2f6bf9be00cee28e1ce20a3d84ef418730d22466ea71d967531127876b1ba2",
+    "version": "3.1.1",
+    "url": "https://github.com/murrty/youtube-dl-gui/releases/download/3.1.1/youtube-dl-gui.zip",
+    "hash": "34519cebe6b0bfea33ba2e9102b2c9acf6d9d60a6ac2d6d9e513f303d18a8f45",
     "suggest": {
         "youtube-dl": "youtube-dl",
         "ffmpeg": "ffmpeg"
