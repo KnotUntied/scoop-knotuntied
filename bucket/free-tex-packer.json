@@ -2,9 +2,9 @@
     "homepage": "http://free-tex-packer.com/",
     "description": "Free texture packer",
     "license": "MIT",
-    "version": "0.6.7",
-    "url": "https://github.com/odrick/free-tex-packer/releases/download/v0.6.7/FreeTexturePacker.exe#/dl.7z",
-    "hash": "d005f84b45a6143ff3dfab0478cf2a29da7c6693a32a6d8cf78f37bb0d804c92",
+    "version": "0.6.6",
+    "url": "https://github.com/odrick/free-tex-packer/releases/download/v0.6.6/FreeTexturePacker.exe#/dl.7z",
+    "hash": "349006c6f748af36e28e42ae3aa11a7f03a077cc6b984505213197d6a7158968",
     "shortcuts": [
         [
             "Free texture packer.exe",
