@@ -2,9 +2,9 @@
     "homepage": "https://diskovery.io/",
     "description": "Data storage inspection tool",
     "license": "Freeware",
-    "version": "0.9.10.0",
+    "version": "0.9.12.0",
     "url": "https://diskovery.io/get",
-    "hash": "b384eb4289d31d845fe73261e5a550b5445b29bcc74bad0233e4836198c3a958",
+    "hash": "62146f16c0b99144372816af71982bf752a889daa6cd79c402eb8cc2f0a7085d",
     "shortcuts": [
         [
             "diskovery-0.9.11.0.exe",
