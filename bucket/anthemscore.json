@@ -2,11 +2,11 @@
     "homepage": "https://www.lunaverus.com/",
     "description": "Audio to Sheet Music With Machine Learning",
     "license": "Proprietary",
-    "version": "5.1.0",
+    "version": "5.2.0",
     "architecture": {
         "64bit": {
             "url": "https://www.lunaverus.com/download/windowsManual",
-            "hash": "da2d230a6506a2635ce2929c90d44abb90dde609f63d2b5e6364dd573a5bb4c7"
+            "hash": "546b81be613439c6b64faf29b844466cc944b0428fcd0943ed59f1b4c34a5c2c"
         }
     },
     "shortcuts": [
