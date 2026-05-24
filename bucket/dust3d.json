@@ -2,11 +2,11 @@
     "homepage": "https://dust3d.org/",
     "description": "Cross-platform open-source 3D modeling software",
     "license": "MIT",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/huxingyi/dust3d/releases/download/1.0.3/dust3d-1.0.3.zip",
-            "hash": "a1ff31375a12187d303c0fd2efd96c79e389df28c3122277b5e24d1931a6f906"
+            "url": "https://github.com/huxingyi/dust3d/releases/download/1.1.0/dust3d-1.1.0.zip",
+            "hash": "d3fd5304a350c3bd326c46be94c07d7df4e321d9bec249a2101e4f9906759163"
         }
     },
     "shortcuts": [
